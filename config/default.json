@@ -1,0 +1,17 @@
+{
+  "grid_size": 10,
+  "cell_size": 40,
+  "fps": 15,
+  "alpha": 0.1,
+  "gamma": 0.9,
+  "epsilon": 1.0,
+  "epsilon_min": 0.05,
+  "epsilon_decay": 0.995,
+  "episodes": 500,
+  "max_steps_per_episode": 500,
+  "random_seed": 42,
+  "model_path": "models/q_table.pkl",
+  "metrics_path": "metrics/training_metrics.json",
+  "plot_path": "reports/results.png",
+  "monitoring_path": "monitoring/performance_log.csv"
+}
